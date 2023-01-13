@@ -1,7 +1,10 @@
 <script>
 	import 'papercss/dist/paper.min.css';
 	import { Navbar } from 'spaper';
+	import MetaHead from '../components/MetaHead.svelte';
 </script>
+
+<MetaHead />
 
 <Navbar border={false}>
 	<h3 slot="brand" style="display:inline-flex">
@@ -11,7 +14,6 @@
 	<ul class="inline" style="margin-top: 35px">
 		<li><a href="/how">How it Works</a></li>
 		<li><a href="/faq">FAQ</a></li>
-		<li><a href="#">Contact</a></li>
 	</ul>
 </Navbar>
 <body>
