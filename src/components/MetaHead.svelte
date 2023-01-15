@@ -9,4 +9,5 @@
 	/>
 	<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
 	<link rel="manifest" href="site.webmanifest" />
+	<script async defer data-website-id="81219afc-0b15-40e2-ba99-7ffaace0159c" src="https://analytics.pass2heaven.org/umami.js"></script>
 </svelte:head>
