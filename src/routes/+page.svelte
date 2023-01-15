@@ -8,7 +8,7 @@
 
 <div class="row flex-center" style="width: 40%; text-align: center">
 	<div class="sm-4 col">
-		<a href="https://app.pass2heaven.org"><Button type="secondary" class="umami--click--try-button">Try it Now!</Button></a>
+		<a href="https://app.pass2heaven.org" class="umami--click--try-button"><Button type="secondary">Try it Now!</Button></a>
 	</div>
 	<div class="sm-4 col align-middle">
 		<a href="/" on:click={() => (showModal = true)} class="umami--click--download-whitepaper-modal">Download Whitepaper</a>
