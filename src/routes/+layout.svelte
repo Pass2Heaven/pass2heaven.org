@@ -18,4 +18,11 @@
 </Navbar>
 <body>
 	<slot />
+	<script
+		type="text/javascript"
+		id="hs-script-loader"
+		async
+		defer
+		src="//js-eu1.hs-scripts.com/26152806.js"
+	></script>
 </body>
