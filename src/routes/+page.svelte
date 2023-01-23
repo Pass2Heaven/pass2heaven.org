@@ -13,14 +13,12 @@
 		>
 	</div>
 	<div class="sm-4 col align-middle">
-		<a href="/" on:click={() => (showModal = true)}
-			>Download Whitepaper</a
-		>
+		<a href="/" on:click={() => (showModal = true)}>Download Whitepaper</a>
 	</div>
 </div>
 
 <div class="row flex-center">
-	<div class="sm-4 col">
+	<div class="">
 		<iframe
 			width="560"
 			height="315"
@@ -32,6 +30,19 @@
 		/>
 	</div>
 </div>
+
+<a
+	href="https://www.producthunt.com/posts/pass2heaven?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-pass2heaven"
+	target="_blank" rel="noreferrer"
+	><img
+		src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=376162&theme=neutral"
+		alt="Pass2Heaven - Protect&#0032;your&#0032;digital&#0032;legacy | Product Hunt"
+		style="width: 250px; height: 54px; float: right;"
+		class="no-border"
+		width="250"
+		height="54"
+	/></a
+>
 
 <Modal bind:active={showModal} title="Whitepaper download">
 	<script
