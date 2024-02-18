@@ -1,0 +1,33 @@
+@charset "utf-8";
+
+@import '../../node_modules/bulma/sass/utilities/initial-variables';
+
+$primary: $blue;
+
+// @import '../../node_modules/bulma/bulma';
+// Base
+@import '../../node_modules/bulma/sass/base/generic';
+@import '../../node_modules/bulma/sass/base/minireset';
+// Utilities
+@import '../../node_modules/bulma/sass/utilities/all';
+// Layout
+@import '../../node_modules/bulma/sass/layout/section';
+@import '../../node_modules/bulma/sass/layout/footer';
+// Elements
+@import '../../node_modules/bulma/sass/elements/container';
+@import '../../node_modules/bulma/sass/elements/content';
+@import '../../node_modules/bulma/sass/elements/button';
+@import '../../node_modules/bulma/sass/elements/title';
+@import '../../node_modules/bulma/sass/elements/other';
+// Helpers
+@import '../../node_modules/bulma/sass/helpers/typography';
+
+body {
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+}
+
+.wrapper {
+	flex: 1;
+}
